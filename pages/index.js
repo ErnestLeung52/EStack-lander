@@ -7,35 +7,35 @@ function Home() {
     return (
         <>
             <Layout>
-                <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
+                <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" id="top" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
                             <div className="max-w-2xl mx-auto mb-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
-                                    Committed to People <br />
-                                    Committed <span className="text-blue-500">to the Future</span>
+                                    Contract Driven Development.<br />
+                                    <span className="text-blue-500">Simplified.</span>
                                 </h2>
                                 <p className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn">
-                                    We are <strong className="text-blue-500">Monst</strong>, a Creative Design{" "}
+                                    <strong className="text-blue-500">One </strong>app to{" "}
                                     <span className="typewrite d-inline text-brand">
-                                        <TextEffect text1="Web Agency" text2="Social Marketing" />
+                                        <TextEffect text1="manage data contracts" text2="validate endpoints" text3="generate documentation"/>
                                     </span>
                                 </p>
                             </div>
                             <div>
                                 <a className="btn-primary py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-up-2" href="#key-features">
-                                    Key Features
+                                    Features
                                 </a>
                                 <a className="btn-white wow animate__animated animate__fadeIn hover-up-2" data-wow-delay=".3s" href="#how-we-work">
-                                    How We Work?
+                                    Download
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
-                        <img src="/assets/imgs/elements/pattern.png" alt="Monst" />
+                        <img src="/assets/imgs/elements/pattern.png" alt="Contractual" />
                         <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
-                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="Monst" />
+                            <img className="rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/mbp-backlog_064.png" alt="Contractual" />
                         </div>
                     </div>
                     <div className="container px-4 mx-auto">
