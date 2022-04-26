@@ -30,7 +30,7 @@ const Header = ({handleHidden}) => {
                             <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="/">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Home
+                                        Features
                                     </a>
                                 </Link>
                                 <ul className="drop-down-menu min-w-200">
