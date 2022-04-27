@@ -22,12 +22,12 @@ const Header = ({handleHidden}) => {
                                 <img
                                     className="h-10"
                                     src="/assets/imgs/logos/monst-logo.svg"
-                                    alt="Monst"
+                                    alt="Contractual"
                                 />
                             </a>
                         </Link>
                         <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
-                            <li className="group relative pt-4 pb-4 has-child">
+                            {/* <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="/">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                         Features
@@ -70,6 +70,13 @@ const Header = ({handleHidden}) => {
                                         </Link>
                                     </li>
                                 </ul>
+                            </li> */}
+                            <li className="pt-4 pb-4">
+                                <Link href="#key-features">
+                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
+                                        Features
+                                    </a>
+                                </Link>
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/about">
