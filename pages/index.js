@@ -1,7 +1,7 @@
 import CounterUp from "../components/elements/Counterup"
 import TextEffect from "../components/elements/TextEffect"
 import Layout from "../components/layout/Layout"
-import Slider1 from "../components/slider/Slider1"
+import Slider2 from '../components/slider/Slider2';
 
 function Home() {
     return (
@@ -180,7 +180,7 @@ function Home() {
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">1</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/eating.svg" alt="Monst" />
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/podcast.svg" alt="Monst" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Connect</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Simply point your fetches to our testing port (ideally with a global variable for easy switching) and make requests as you normally would.</p>
                                 </div>
@@ -205,29 +205,32 @@ function Home() {
                     </div>
                 </section>
                 <section className="py-12 md:py-20">
-                    <div className="container px-4 mx-auto">
+                    <div className="container">
                         <div className="flex flex-wrap -mx-3">
                             <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
-                                <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
-                                    <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        Simple Solution for <span className="text-blue-500">Complex</span> Connections
+                                <div className="max-w-md lg:max-w-xs mx-auto lg:ml-0 mb-6 lg:mb-0">
+                                    <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn animated" data-wow-delay=".3s">
+                                        Simple, <span className="text-blue-500">intuitive</span> interface
                                     </h2>
                                     <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.
+                                        Stop searching through your toolbox and just get to building.
                                     </p>
                                 </div>
+                                <div className="lg:absolute lg:bottom-0 lg:left-0 flex justify-center wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                    <div id="carausel-fade-1-arrows" className="flex"></div>
+                                </div>
                             </div>
-                            <div className="w-full lg:w-2/3 flex flex-wrap">
-                                <div className="relative w-full">
-                                    <div className="carausel-2-columns slick-carausel" id="carausel-2-columns-1">
-                                        <Slider1 />
+                            <div className="w-full lg:w-2/3 flex flex-wrap px-3 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                <div className="relative w-full rounded">
+                                    <div className="carausel-fade slick-carausel rounded" id="carausel-fade-1">
+                                        <Slider2 />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="py-20 xl:bg-contain bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
+                <section className="py-20 xl:bg-contain bg-top bg-no-repeat" id="team" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="text-center mb-16">
                             <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
@@ -242,7 +245,7 @@ function Home() {
                         <div className="flex flex-wrap -mx-3">
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/startup.svg" alt="Monst" />
+                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/people/Ernest.png" alt="Monst" />
                                     <h3 className="text-4xl font-bold font-heading">Ernest</h3>
                                     <span className="text-4xl text-blue-500 font-bold font-heading">LEUNG</span>
                                     <p className="mt-2 mb-8 text-blueGray-400">"Own equity, gain financial freedom."</p>
@@ -275,10 +278,10 @@ function Home() {
                                         </ul>
                                     </div> */}
                                     <div>
-                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="https://www.linkedin.com/in/ernestleung52/" target="_blank">
                                             LinkedIn
                                         </a>
-                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="#">
+                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="https://github.com/ErnestLeung52" target="_blank">
                                             Github
                                         </a>
                                     </div>
@@ -286,10 +289,10 @@ function Home() {
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/startup.svg" alt="Monst" />
+                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/people/George.png" alt="Monst" />
                                     <h3 className="text-4xl font-bold font-heading">George</h3>
                                     <span className="text-4xl text-blue-500 font-bold font-heading">JENG</span>
-                                    <p className="mt-2 mb-8 text-blueGray-400">"Learn to sell, learn to build, become unstoppable."</p>
+                                    <p className="mt-2 mb-8 text-blueGray-400">"Learn to sell <strong>and</strong> build. Become unstoppable."</p>
                                     {/* <div className="flex flex-col items-center mb-8">
                                         <ul className="text-blueGray-400">
                                             <li className="flex mb-3">
@@ -319,10 +322,10 @@ function Home() {
                                         </ul>
                                     </div> */}
                                     <div>
-                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="https://www.linkedin.com/in/gjenga/" target="_blank">
                                             LinkedIn
                                         </a>
-                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="#">
+                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="https://github.com/gdelaselva" target="_blank">
                                             Github
                                         </a>
                                     </div>
@@ -330,7 +333,7 @@ function Home() {
                             </div>
                             <div className="w-full lg:w-1/4 px-3 mb-6">
                                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".6s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/enterprise.svg" alt="Monst" />
+                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/people/Joe.png" alt="Monst" />
                                     <h3 className="text-4xl font-bold font-heading">Joe</h3>
                                     <span className="text-4xl text-blue-500 font-bold font-heading">AMOS</span>
                                     <p className="mt-2 mb-8 text-blueGray-400">"Long term gains, with long term people."</p>
@@ -363,10 +366,10 @@ function Home() {
                                         </ul>
                                     </div> */}
                                     <div>
-                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="https://www.linkedin.com/in/joe-amos/" target="_blank">
                                             LinkedIn
                                         </a>
-                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="#">
+                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="https://github.com/joeamos" target="_blank">
                                             Github
                                         </a>
                                     </div>
@@ -374,7 +377,7 @@ function Home() {
                             </div>
                             <div className="w-full lg:w-1/4 px-3 mb-6">
                                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".6s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/enterprise.svg" alt="Monst" />
+                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/people/Yankun.png" alt="Monst" />
                                     <h3 className="text-4xl font-bold font-heading">Yankun</h3>
                                     <span className="text-4xl text-blue-500 font-bold font-heading">SONG</span>
                                     <p className="mt-2 mb-8 text-blueGray-400">Specific knowledge, accountability, leverage.</p>
@@ -407,10 +410,10 @@ function Home() {
                                         </ul>
                                     </div> */}
                                     <div>
-                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                        <a className="block py-4 px-6 mb-4 sm:mb-4 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="https://www.linkedin.com/in/yankunsong/" target="_blank">
                                             LinkedIn
                                         </a>
-                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="#">
+                                        <a className="block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="https://github.com/yankun-song" target="_blank">
                                             Github
                                         </a>
                                     </div>
@@ -419,7 +422,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
+                {/* <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="relative py-20 px-4 lg:p-20">
                             <div className="max-w-lg mx-auto text-center">
@@ -446,7 +449,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </Layout>
         </>
     );
