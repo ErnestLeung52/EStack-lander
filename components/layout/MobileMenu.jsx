@@ -30,14 +30,26 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                                 <img className="h-10" src="/assets/imgs/logos/monst-logo.svg" alt="Monst" />
                             </a>
                         </Link>
-                        <button className="navbar-close" onClick={handleRemove}>
+                        {/* <button className="navbar-close" onClick={handleRemove}>
                             <svg className="h-6 w-6 text-blueGray-400 cursor-pointer hover:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                             </svg>
-                        </button>
+                        </button> */}
                     </div>
-                    <div>
+                    <div >
                         <ul className="mobile-menu">
+                        <li className="mb-1 rounded-xl" onClick={handleRemove}>
+                                <Link href="#top">
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl"><svg className="h-6 w-6 text-blueGray-400 cursor-pointer hover:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg></a>
+                                </Link>
+                            </li>
+                        {/* <button className="navbar-close absolute top-10 left-10" onClick={handleRemove}>
+                            <svg className="h-6 w-6 text-blueGray-400 cursor-pointer hover:text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button> */}
                             {/* <li className={isActive.key == 1 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(1)}>
                                 <span class="menu-expand">+</span>
                                 <Link href="/">
