@@ -380,7 +380,7 @@ function Home() {
                                     <img className="h-20 mb-6 mx-auto" src="/assets/imgs/people/Yankun.png" alt="Monst" />
                                     <h3 className="text-4xl font-bold font-heading">Yankun</h3>
                                     <span className="text-4xl text-blue-500 font-bold font-heading">SONG</span>
-                                    <p className="mt-2 mb-8 text-blueGray-400">Specific knowledge, accountability, leverage.</p>
+                                    <p className="mt-2 mb-8 text-blueGray-400">"Specific knowledge, accountability, leverage."</p>
                                     {/* <div className="flex flex-col items-center mb-8">
                                         <ul className="text-blueGray-400">
                                             <li className="flex mb-3">
