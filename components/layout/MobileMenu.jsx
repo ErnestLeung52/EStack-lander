@@ -38,9 +38,9 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     </div>
                     <div>
                         <ul className="mobile-menu">
-                            <li className={isActive.key == 1 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(1)}>
+                            {/* <li className={isActive.key == 1 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(1)}>
                                 <span class="menu-expand">+</span>
-                                <Link href="#">
+                                <Link href="/">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">Home</a>
                                 </Link>
                                 <ul className={isActive.key == 1 ? "dropdown pl-5" : "hidden"}>
@@ -70,33 +70,33 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li className="mb-1 rounded-xl">
-                                <Link href="/about">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">About Us</a>
+                                <Link href="#top">
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">Home</a>
                                 </Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/services">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Services</a>
+                                <Link href="#key-features">
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Features</a>
                                 </Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/portfolio">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Portfolio</a>
+                                <Link href="#how-we-work">
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">About</a>
                                 </Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/pricing">
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Pricing</a>
-                                </Link>
-                            </li>
-                            <li className="mb-1">
-                                <Link href="/team">
+                                <Link href="#team">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Team</a>
                                 </Link>
                             </li>
-                            <li className={isActive.key == 2 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(2)}>
+                            {/* <li className="mb-1">
+                                <Link href="/team">
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Team</a>
+                                </Link>
+                            </li> */}
+                            {/* <li className={isActive.key == 2 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(2)}>
                                 <span class="menu-expand">+</span>
                                 <Link href="#">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Blog</a>
@@ -123,8 +123,8 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </li>
-                            <li className="mb-1">
+                            </li> */}
+                            {/* <li className="mb-1">
                                 <Link href="/faqs">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Faqs</a>
                                 </Link>
@@ -138,18 +138,18 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                                 <Link href="/contact">
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Contact Us</a>
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                         <div className="mt-4 pt-6 border-t border-blueGray-100">
-                            <Link href="/signup">
-                                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded">Sign Up</a>
+                            <Link href="#">
+                                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded">Contribute</a>
                             </Link>
-                            <Link href="/login">
-                                <a className="block px-4 py-3 mb-2 text-xs text-center text-blue-500 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded">Log In</a>
+                            <Link href="#">
+                                <a className="block px-4 py-3 mb-2 text-xs text-center text-blue-500 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded">Download</a>
                             </Link>
                         </div>
                     </div>
-                    <div className="mt-auto">
+                    {/* <div className="mt-auto">
                         <p className="my-4 text-xs text-blueGray-400">
                             <span>Get in Touch</span>
                             <span className="text-blue-500 hover:text-blue-500 underline">contact@monst.com</span>
@@ -163,7 +163,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                         <a className="inline-block px-1" href="https://www.instagram.com">
                             <img src="/assets/imgs/icons/instagram-blue.svg" alt="Monst" />
                         </a>
-                    </div>
+                    </div> */}
                 </nav>
             </div>
         </>

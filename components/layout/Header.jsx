@@ -79,20 +79,20 @@ const Header = ({handleHidden}) => {
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
-                                <Link href="/about">
+                                <Link href="#how-we-work">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        About Us
+                                        About
                                     </a>
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
-                                <Link href="/services">
+                                <Link href="#team">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Services
+                                        Team
                                     </a>
                                 </Link>
                             </li>
-                            <li className="group relative pt-4 pb-4 has-child">
+                            {/* <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                         Company
@@ -142,8 +142,8 @@ const Header = ({handleHidden}) => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </li>
-                            <li className="group relative pt-4 pb-4 has-child">
+                            </li> */}
+                            {/* <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                         Blog
@@ -179,22 +179,22 @@ const Header = ({handleHidden}) => {
                                         </Link>
                                     </li>
                                 </ul>
-                            </li>
-                            <li className="pt-4 pb-4">
+                            </li> */}
+                            {/* <li className="pt-4 pb-4">
                                 <Link href="/contact">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                         Contact
                                     </a>
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                         <div className="hidden lg:block">
                             <Link href="/login">
-                                <a className="btn-accent hover-up-2">Log In</a>
+                                <a className="btn-accent hover-up-2">Contribute</a>
                             </Link>
                             <Link href="/signup">
                                 <a className="btn-primary hover-up-2">
-                                    Sign Up
+                                    Download
                                 </a>
                             </Link>
                         </div>
