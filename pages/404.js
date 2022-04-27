@@ -14,7 +14,7 @@ const Custom404 = () => {
                         <p className="mb-6 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".4s">Sorry, but we are unable to open this page.</p>
                         <div>
                             <Link href="/"><a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animated animate__fadeIn" data-wow-delay=".5s">Go back to Homepage</a></Link>
-                            <Link href="/contact"><a className="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-800 text-center font-semibold leading-none bg-blueGray-50 hover:bg-blueGray-100 rounded wow animate__animated animate__fadeIn" data-wow-delay=".6s">Contact Us</a></Link>
+                            {/* <Link href="/contact"><a className="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-800 text-center font-semibold leading-none bg-blueGray-50 hover:bg-blueGray-100 rounded wow animate__animated animate__fadeIn" data-wow-delay=".6s">Contact Us</a></Link> */}
                         </div>
                     </div>
                 </section>
