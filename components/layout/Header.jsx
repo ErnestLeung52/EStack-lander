@@ -92,6 +92,9 @@ const Header = ({handleHidden}) => {
                                     </a>
                                 </Link>
                             </li>
+                            <li className="pt-4 pb-4">
+                            <iframe src="https://ghbtns.com/github-btn.html?user=oslabs-beta&repo=contractual&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+                            </li>
                             {/* <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
@@ -189,10 +192,10 @@ const Header = ({handleHidden}) => {
                             </li> */}
                         </ul>
                         <div className="hidden lg:block">
-                            <Link href="/login">
-                                <a className="btn-accent hover-up-2">Contribute</a>
-                            </Link>
-                            <Link href="/signup">
+                        
+                                <a href="https://github.com/oslabs-beta/contractual" target="_blank" className="btn-accent hover-up-2">Contribute</a>
+
+                            <Link href="#download">
                                 <a className="btn-primary hover-up-2">
                                     Download
                                 </a>
