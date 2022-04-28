@@ -406,10 +406,10 @@ function Home() {
                             <div className="w-full lg:w-1/2 px-8">
                                 <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
                                     <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading max-w-md wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                        Download for <span className="text-blue-600">whatever flavor</span> we got you.
+                                        Download Contractual for <span className="text-blue-600">Windows or Mac</span> Your machine. Your choice.
                                     </h2>
                                     <p className="mb-8 leading-loose text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        We know teams are diverse, even when it comes to machines. From Windows to Mac, get the exact version you need.
+                                    Teams are diverse, and so are the devices powered by them. Whether your machine runs on Windows or Mac, we have the exact version you need.
                                     </p>
                                         <a href="https://github.com/oslabs-beta/contractual/releases/download/v1.0.0-beta/Mac-Contractual-1.0.0.dmg" className="inline-block text-xs py-4 px-8 mr-2 text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded hover-up-2 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                             Mac
@@ -428,7 +428,7 @@ function Home() {
                                         </div>
                                         <div className="px-4">
                                             <h3 className="my-4 text-xl font-semibold">Download</h3>
-                                            <p className="text-blueGray-400 leading-loose">Get the version for your OS. The Mac installer will run on both Intel and M1 chips, but a native M1 version is in the works.</p>
+                                            <p className="text-blueGray-400 leading-loose">After selecting your preferred OS, the download will begin.</p>
                                         </div>
                                     </li>
                                     <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
@@ -436,8 +436,8 @@ function Home() {
                                             <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">2</span>
                                         </div>
                                         <div className="px-4">
-                                            <h3 className="my-4 text-xl font-semibold">Configure Ports</h3>
-                                            <p className="text-blueGray-400 leading-loose">Point your frontend fetch requests to localhost Port 1234 so Contractual can pretend to be your backend.</p>
+                                            <h3 className="my-4 text-xl font-semibold">Configure</h3>
+                                            <p className="text-blueGray-400 leading-loose">Pointing your frontend fetch requests at localhost Port1234 allows Contractual to function as your backend.</p>
                                         </div>
                                     </li>
                                     <li className="flex -mx-4 wow animate__animated animate__fadeIn" data-wow-delay=".7s">
@@ -445,8 +445,8 @@ function Home() {
                                             <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">3</span>
                                         </div>
                                         <div className="px-4">
-                                            <h3 className="my-4 text-xl font-semibold">Get to Building</h3>
-                                            <p className="text-blueGray-400 leading-loose">That's all for setup, just define your APIs from the contract builder and start coding!</p>
+                                            <h3 className="my-4 text-xl font-semibold">Build</h3>
+                                            <p className="text-blueGray-400 leading-loose">With setup complete, you’re free to define APIs from the contract builder and start coding!</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -465,16 +465,15 @@ function Home() {
                                 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
                                 data-wow-delay=".2s"
                             >
-                                <span>Creators, Contributors,</span>
-                                <span className="text-blue-500"> Community</span>
+                                <span>Create, Contribute, and</span>
+                                <span className="text-blue-500"> Build Communities</span>
                                 <span>.</span>
                             </h2>
                             <p
                                 className="max-w-sm mx-auto text-lg text-blueGray-400 wow animate__animated animate__fadeInDown"
                                 data-wow-delay=".5s"
                             >
-                                There's nothing we love more than building cool stuff and we hope it
-                                shows.<br></br>
+                                Contractual builds useful tools and workflow software for developers like you.<br></br>
                                 <strong>
                                     Connect with us on<br></br>Github and Linkedin!
                                 </strong>
