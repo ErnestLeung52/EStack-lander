@@ -159,6 +159,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                             <Link href="#download">
                                 <a className="block px-4 py-3 mb-2 text-xs text-center text-blue-500 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded">Download</a>
                             </Link>
+                            <iframe className="mt-3" src="https://ghbtns.com/github-btn.html?user=oslabs-beta&repo=contractual&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
                         </div>
                     </div>
                     {/* <div className="mt-auto">

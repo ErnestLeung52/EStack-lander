@@ -417,6 +417,7 @@ function Home() {
                                         <a href="https://github.com/oslabs-beta/contractual/releases/download/v1.0.0-beta/Win-Contractual.Setup.1.0.0.exe" className="inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded hover-up-2 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                             Windows
                                         </a>
+                                        <iframe className="mt-5" src="https://ghbtns.com/github-btn.html?user=oslabs-beta&repo=contractual&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
                                 </div>
                             </div>
                             <div className="w-full lg:w-1/2 px-8">
