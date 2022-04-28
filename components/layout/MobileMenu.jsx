@@ -153,10 +153,10 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                             </li> */}
                         </ul>
                         <div className="mt-4 pt-6 border-t border-blueGray-100">
-                            <Link href="#">
+                            <Link href="https://github.com/oslabs-beta/contractual" target="_blank">
                                 <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded">Contribute</a>
                             </Link>
-                            <Link href="#">
+                            <Link href="#download">
                                 <a className="block px-4 py-3 mb-2 text-xs text-center text-blue-500 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded">Download</a>
                             </Link>
                         </div>

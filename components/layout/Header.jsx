@@ -189,10 +189,9 @@ const Header = ({handleHidden}) => {
                             </li> */}
                         </ul>
                         <div className="hidden lg:block">
-                            <Link href="/login">
-                                <a className="btn-accent hover-up-2">Contribute</a>
-                            </Link>
-                            <Link href="/signup">
+                                <a href="https://github.com/oslabs-beta/contractual" target="_blank" className="btn-accent hover-up-2">Contribute</a>
+
+                            <Link href="#download">
                                 <a className="btn-primary hover-up-2">
                                     Download
                                 </a>
