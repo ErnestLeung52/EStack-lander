@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<>
-			<section className='py-20'>
+			<section className='py-20' id='contact'>
 				<div
 					className='container px-4 mx-auto wow animate__animated animate__fadeIn'
 					data-wow-delay='.3s'

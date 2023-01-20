@@ -205,7 +205,7 @@ const Header = ({ handleHidden }) => {
 								className='btn-accent hover-up-2'
 								href='mailto:estackstudio@gmail.com'
 							>
-								Contact
+								Inquiry
 							</a>
 
 							<a

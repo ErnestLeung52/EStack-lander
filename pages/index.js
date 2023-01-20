@@ -47,7 +47,7 @@ function Home() {
 								<a
 									className='btn-white wow animate__animated animate__fadeIn hover-up-2'
 									data-wow-delay='.3s'
-									href='#download'
+									href='#contact'
 								>
 									Contact
 								</a>
