@@ -1,18 +1,22 @@
 import React from 'react';
 
 const Preloader = () => {
-    return (
-        <>
-            <div id="preloader-active">
-            <div className="preloader flex-1 content-center">
-                <div className="logo absolute inset-y-2/4 jump">
-                    <img src="/assets/imgs/logos/favicon.svg" alt="Contractual" />
-                    {/* <h1 className="text-lg font-semibold">Contractual</h1> */}
-                </div>
-            </div>
-        </div>
-        </>
-    );
+	return (
+		<>
+			<div id='preloader-active'>
+				<div className='preloader '>
+					<div className='logo jump'>
+						<img
+							className='w-1/2 ml-auto mr-auto mt-auto mb-auto'
+							src='/assets/imgs/logos/EStack-circle-1.png'
+							alt='Contractual'
+						/>
+						{/* <h1 className="text-lg font-semibold">Contractual</h1> */}
+					</div>
+				</div>
+			</div>
+		</>
+	);
 };
 
 export default Preloader;
